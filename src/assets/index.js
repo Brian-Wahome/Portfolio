@@ -7,6 +7,7 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png';
+import brian from './personal/Portfolio.jpg'
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -37,11 +38,19 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import golang from './tech/golang.png';
+import python from './tech/python.png';
+import gcp from './tech/gcp.png';
+import aws from './tech/aws.png';
+import c from './tech/c++.png';
+
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import ecobee from './company/ecobee.png';
+import crisp from './company/crisp.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -51,49 +60,57 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
-  bwmap,
-  nairobi,
-  whiteabstract,
-  worldmap,
-  logo,
-  logotext,
-  shaq,
-  backend,
-  ux,
-  frontend,
-  prototyping,
-  github,
-  close,
-  download,
-  downloadHover,
-  pineapple,
-  pineappleHover,
-  menu,
-  resume,
-  send,
-  sendHover,
-  css,
-  docker,
-  figma,
-  git,
-  graphql,
-  html,
-  javascript,
-  nodejs,
-  postgresql,
-  rubyrails,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+    bwmap,
+    nairobi,
+    whiteabstract,
+    worldmap,
+    logo,
+    logotext,
+    shaq,
+    backend,
+    ux,
+    frontend,
+    prototyping,
+    github,
+    close,
+    download,
+    downloadHover,
+    pineapple,
+    pineappleHover,
+    menu,
+    resume,
+    send,
+    sendHover,
+    css,
+    docker,
+    figma,
+    git,
+    graphql,
+    html,
+    javascript,
+    nodejs,
+    postgresql,
+    rubyrails,
+    reactjs,
+    redux,
+    tailwind,
+    typescript,
+    komikult,
+    leaderboard,
+    math,
+    movie,
+    nyeusi,
+    space,
+    coverhunt,
+    dcc,
+    kelhel,
+    microverse,
+    brian,
+    golang,
+    python,
+    c,
+    aws,
+    gcp,
+    ecobee,
+    crisp,
 };
