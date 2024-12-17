@@ -43,7 +43,8 @@ import python from './tech/python.png';
 import gcp from './tech/gcp.png';
 import aws from './tech/aws.png';
 import c from './tech/c++.png';
-
+import mqtt from './tech/MQTT.png';
+import eqmx from './tech/eqmx.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -58,6 +59,9 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import elevator from './projects/elevator.jpg';
+import fpga from './projects/FPGA.jpg';
+import brain from './projects/brain.png';
 
 export {
     bwmap,
@@ -113,4 +117,9 @@ export {
     gcp,
     ecobee,
     crisp,
+    elevator,
+    fpga,
+    brain,
+    mqtt,
+    eqmx,
 };
