@@ -51,8 +51,9 @@ const ProjectCard = ({
             className="absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
             <div className="absolute inset-0 flex justify-end m-3">
+              {/*
               <div
-                onClick={() => window.open(repo, '_blank')}
+                onClick={() => window.open(repo, '_blank')} 
                 className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
                   flex justify-center items-center cursor-pointer
                   sm:opacity-[0.9] opacity-[0.8]">
@@ -61,7 +62,7 @@ const ProjectCard = ({
                   alt="source code"
                   className="w-4/5 h-4/5 object-contain"
                 />
-              </div>
+              </div>*/}
             </div>
 
             <h2
@@ -75,6 +76,7 @@ const ProjectCard = ({
               font-poppins tracking-[1px]">
               {description}
             </p>
+            {/*
             <button
               className="live-demo flex justify-between 
               sm:text-[16px] text-[14px] text-timberWolf 
@@ -102,10 +104,10 @@ const ProjectCard = ({
                   w-[30px] h-[30px] object-contain"
               />
               LIVE DEMO
-            </button>
+            </button>*/}
           </div>
         </>
-      )}
+      )}*/
     </motion.div>
   );
 };
