@@ -37,9 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I'm a passionate Software Engineer specializing in Mechatronics and Robotics Engineering, with a strong drive for creating innovative technological solutions. 
-        My academic journey at the University of Leeds has equipped me with advanced skills in artificial intelligence, machine learning, and intelligent systems. 
-        I thrive on challenges that push the boundaries of software engineering, combining my technical expertise with creative problem-solving.
+       I'm a passionate Software Engineer currently pursuing a Master's in Mechatronics and Robotics Engineering from the University of Leeds, specializing in creating robust, efficient software solutions that push the boundaries of technology.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
