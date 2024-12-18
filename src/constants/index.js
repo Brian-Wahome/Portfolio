@@ -14,13 +14,17 @@ import {
     docker,
     postgresql,
     graphql,
-    komikult,
+    brain,
     leaderboard,
     math,
     movie,
     nyeusi,
     ecobee,
     crisp,
+    fpga,
+    elevator,
+    mqtt,
+    eqmx,
 } from '../assets';
 
 export const navLinks = [{
@@ -42,15 +46,11 @@ export const navLinks = [{
 ];
 
 const services = [{
-        title: 'Frontend Developer',
-        icon: frontend,
-    },
-    {
         title: 'Backend Developer',
         icon: backend,
     },
     {
-        title: 'UI/UX Design',
+        title: 'Embedded developer',
         icon: ux,
     },
     {
@@ -103,7 +103,10 @@ const technologies = [{
         name: 'gcp',
         icon: gcp
     },
-
+    {
+        name: 'eqmx',
+        icon: eqmx
+    },
 ];
 
 const experiences = [{
@@ -131,35 +134,35 @@ const experiences = [{
 
 const projects = [{
         id: 'project-1',
-        name: 'KomiKult',
-        description: 'A comic characters list app that displays Marvel characters.',
+        name: 'Acrylic elevator',
+        description: 'A prototype elevator designed and built from scratch. I was responsible for programming the microcontroller using embedded C',
         tags: [{
-                name: 'react',
+                name: 'embedded C',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'mongodb',
+                name: 'MPLABX',
                 color: 'green-text-gradient',
             },
             {
-                name: 'tailwind',
+                name: 'AutoCAD',
                 color: 'pink-text-gradient',
             },
         ],
-        image: komikult,
-        repo: 'https://github.com/shaqdeff/KomiKult',
-        demo: 'https://shaqdeff.github.io/KomiKult/',
+        image: elevator,
+        repo: '',
+        demo: '',
     },
     {
         id: 'project-2',
-        name: 'Leaderboard',
-        description: 'A leaderboard list app that displays scores submitted by different players.',
+        name: 'Four mode timer',
+        description: 'A timer with four different operational modes developed using FPGA',
         tags: [{
-                name: 'react',
+                name: 'Quartus',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'restapi',
+                name: 'FPGA',
                 color: 'green-text-gradient',
             },
             {
@@ -167,72 +170,34 @@ const projects = [{
                 color: 'pink-text-gradient',
             },
         ],
-        image: leaderboard,
-        repo: 'https://github.com/shaqdeff/Leaderboard',
-        demo: 'https://shaqdeff.github.io/Leaderboard/',
+        image: fpga,
+        repo: null,
+        demo: null,
     },
     {
         id: 'project-3',
-        name: 'Math Magicians',
-        description: 'This is a single-page calculator app built with React',
+        name: 'Telerehabilitation interface',
+        description: 'Currently working on a telerehabilitation interface used to conduct remote rehabilitation for patients with Parkinson\'s disease and recovering from stroke.',
         tags: [{
-                name: 'nextjs',
+                name: 'EQMX',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'supabase',
+                name: 'Python',
                 color: 'green-text-gradient',
             },
             {
-                name: 'css',
+                name: 'React',
+                color: 'pink-text-gradient',
+            },
+            {
+                name: 'scss',
                 color: 'pink-text-gradient',
             },
         ],
-        image: math,
-        repo: 'https://github.com/shaqdeff/Math-Magicians',
-        demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-    },
-    {
-        id: 'project-4',
-        name: 'Movie Metro',
-        description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-        tags: [{
-                name: 'nextjs',
-                color: 'blue-text-gradient',
-            },
-            {
-                name: 'supabase',
-                color: 'green-text-gradient',
-            },
-            {
-                name: 'css',
-                color: 'pink-text-gradient',
-            },
-        ],
-        image: movie,
-        repo: 'https://github.com/shaqdeff/Movie-Metro',
-        demo: 'https://movie-metro.netlify.app/',
-    },
-    {
-        id: 'project-5',
-        name: 'Nyeusi Fest Site',
-        description: 'This is a demo concert website for a music festival called Nyeusi.',
-        tags: [{
-                name: 'nextjs',
-                color: 'blue-text-gradient',
-            },
-            {
-                name: 'supabase',
-                color: 'green-text-gradient',
-            },
-            {
-                name: 'css',
-                color: 'pink-text-gradient',
-            },
-        ],
-        image: nyeusi,
-        repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-        demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+        image: brain,
+        repo: '',
+        demo: '',
     },
 ];
 
