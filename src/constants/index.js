@@ -110,11 +110,11 @@ const technologies = [{
 ];
 
 const experiences = [{
-        title: 'Junior Software Support Analyst',
-        company_name: 'crisp',
-        icon: crisp,
+        title: 'Software Engineer',
+        company_name: 'ecobee',
+        icon: ecobee,
         iconBg: '#333333',
-        date: 'Aug 2021 - June 2023',
+        date: 'October 2024 - Present',
     },
     {
         title: 'Software Engineering Intern',
@@ -124,11 +124,11 @@ const experiences = [{
         date: 'September 2023 - August 2024',
     },
     {
-        title: 'Software Engineer',
-        company_name: 'ecobee',
-        icon: ecobee,
+        title: 'Junior Software Support Analyst',
+        company_name: 'crisp',
+        icon: crisp,
         iconBg: '#333333',
-        date: 'October 2024 - Present',
+        date: 'Aug 2021 - June 2023',
     },
 ];
 
