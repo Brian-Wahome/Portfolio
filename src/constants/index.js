@@ -8,7 +8,6 @@ import {
     aws,
     gcp,
     c,
-    nodejs,
     git,
     docker,
     postgresql,
@@ -19,7 +18,8 @@ import {
     fpga,
     elevator,
     eqmx,
-    hubspot
+    hubspot,
+    java
 } from '../assets';
 
 export const navLinks = [{
@@ -101,6 +101,10 @@ const technologies = [{
     {
         name: 'eqmx',
         icon: eqmx
+    },
+     {
+        name: 'java',
+        icon: java
     },
 ];
 
