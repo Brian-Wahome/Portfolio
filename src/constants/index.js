@@ -1,5 +1,4 @@
 import {
-    frontend,
     backend,
     ux,
     prototyping,
@@ -9,22 +8,18 @@ import {
     aws,
     gcp,
     c,
-    nodejs,
     git,
     docker,
     postgresql,
     graphql,
     brain,
-    leaderboard,
-    math,
-    movie,
-    nyeusi,
     ecobee,
     crisp,
     fpga,
     elevator,
-    mqtt,
     eqmx,
+    hubspot,
+    java
 } from '../assets';
 
 export const navLinks = [{
@@ -107,14 +102,26 @@ const technologies = [{
         name: 'eqmx',
         icon: eqmx
     },
+     {
+        name: 'java',
+        icon: java
+    },
 ];
 
-const experiences = [{
+const experiences = [
+    {
+        title: 'Software Engineer',
+        company_name: 'HubSpot',
+        icon: hubspot,
+        iconBg: '#333333',
+        date: 'September 2025 - Present',
+    },
+    {
         title: 'Software Engineer',
         company_name: 'ecobee',
         icon: ecobee,
         iconBg: '#333333',
-        date: 'October 2024 - Present',
+        date: 'September 2024 - Present',
     },
     {
         title: 'Software Engineering Intern',
