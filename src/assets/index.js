@@ -42,6 +42,7 @@ import aws from './tech/aws.png';
 import c from './tech/c++.png';
 import mqtt from './tech/MQTT.png';
 import eqmx from './tech/eqmx.png';
+import java from './tech/java.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -49,6 +50,7 @@ import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 import ecobee from './company/ecobee.png';
 import crisp from './company/crisp.png';
+import hubspot from './company/hubspot.jpg';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -117,4 +119,6 @@ export {
     brain,
     mqtt,
     eqmx,
+    java,
+    hubspot,
 };
