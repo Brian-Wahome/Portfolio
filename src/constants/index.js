@@ -105,7 +105,13 @@ const technologies = [{
     },
 ];
 
-const experiences = [
+const experiences = [ {
+        title: 'Software Engineer',
+        company_name: 'HubSpot',
+        icon: hubspot,
+        iconBg: '#333333',
+        date: 'September 2025 - Present',
+    },
     {
         title: 'Software Engineer',
         company_name: 'HubSpot',
